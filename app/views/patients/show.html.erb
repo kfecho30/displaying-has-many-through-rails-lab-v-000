@@ -3,6 +3,6 @@
 
 <ul>
   <% @patient.appointments.each do |appt| %>
-  <li></li>
+  <li><%= appt.appointment_datetime %></li>
   <% end %>
 </ul>
